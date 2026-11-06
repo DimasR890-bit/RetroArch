@@ -41,19 +41,5 @@
                 <category android:name="com.oculus.intent.category.VR" />
             </intent-filter>
         </activity>
-        <activity-alias android:name="com.retroarch.browser.mainmenu.MainMenuActivity"
-            android:targetActivity="com.retroarch.browser.retroactivity.RetroActivityFuture">
-            <intent-filter tools:node="remove">
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
-                <category android:name="tv.ouya.intent.category.GAME" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-                <category android:name="com.oculus.intent.category.VR" />
-            </intent-filter>
-        </activity-alias>
     </application>
 </manifest>
