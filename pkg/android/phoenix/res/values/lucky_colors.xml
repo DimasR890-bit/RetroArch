@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="psp_bg_top">#0A2A6B</color>
+    <color name="psp_bg_bottom">#1E6FD9</color>
+    <color name="psp_panel">#802B7DE8</color>
+    <color name="psp_accent">#8FD3FF</color>
+    <color name="psp_text">#FFFFFF</color>
+</resources>
